@@ -8,10 +8,8 @@ public class Exercise01 {
         System.out.println("weight: ");
         float weight = scanner.nextFloat();
         float BMI = weight / (height * height);
-        System.out
-                .println(
-                        "your BMI for weight = " + weight + "kg and height = " + height + "meters is :" + BMI
-                                + "bmi");
+        System.out.println("your BMI for weight = " + weight + "kg and height = " + height + "meters is :" + BMI + "bmi");
         scanner.close();
     }
 }
+
